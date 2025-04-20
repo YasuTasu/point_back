@@ -1,0 +1,15 @@
+# ローカルのMySQL接続用
+#MYSQL_USER=root
+#MYSQL_PASSWORD=Sudachishirasu1
+#MYSQL_HOST=localhost
+#MYSQL_PORT=3306
+#MYSQL_DATABASE=point_program_db
+
+# AzureのMySQL接続用
+MYSQL_USER=sakeparadb
+MYSQL_PASSWORD=lzxVB3hCBTDi
+MYSQL_HOST=tech0-gen-8-step4-sakepara-db.mysql.database.azure.com
+MYSQL_PORT=3306
+MYSQL_DATABASE=point_program_db
+# SSL 設定（Azure の MySQL は SSL が必須）
+MYSQL_SSL_CA=C:/Users/hidec/point-management-system/backend/DigiCertGlobalRootCA.crt.pem
